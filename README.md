@@ -37,3 +37,9 @@ Run tests:
 ```sh
 pytest
 ```
+
+## RPS Game
+
+```sh
+python game.py
+```
