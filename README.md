@@ -22,10 +22,7 @@ Checklist to steps for setup.
 + Choose the option "Open with GitHub Desktop" 
 + Clone onto your local computer
 
-Optionally fork this [remote repository](https://github.com/hfrey1995/rock-paper-scissors), to create a copy under your own control. Then "clone" or download the remote repository (or your forked copy) onto your local computer, for example to your Desktop or C Drive (exampled). Then navigate to wherever you downloaded the repo:
-
-``` cd /C:/my-first-rep-folder/rock-paper-scissors
-```
+Optionally fork this [remote repository](https://github.com/hfrey1995/rock-paper-scissors), to create a copy under your own control. Then "clone" or download the remote repository (or your forked copy) onto your local computer, for example to your Desktop or C Drive (exampled). Then navigate to wherever you downloaded the repo.
 
 Use your text editor or the command-line to create a file in that repo called "game.py"' and then place the following contents inside:
 
