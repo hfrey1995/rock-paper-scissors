@@ -26,8 +26,6 @@ Optionally fork this [remote repository](https://github.com/hfrey1995/rock-paper
 
 Use your text editor or the command-line to create a file in that repo called "game.py"' and then place the following contents inside:
 
-# this is the "game.py" file...
-
 ```print("Rock, Paper, Scissors, Shoot!")
 ```
 
