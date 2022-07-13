@@ -34,6 +34,27 @@ print("Computer chose:", computer_choice)
 
 # DETERMINE THE WINNER
 
+# from code shared in slack by Bonnie: 
+
+if user_choice == computer_choice:
+    print("It's a tie!")
+elif user_choice == "rock":
+    if computer_choice == "scissors":
+        print("Rock crushes scissors. You win!")
+    else:
+        print("Paper covers rock. You lose.")
+elif user_choice == "paper":
+    if computer_choice == "rock":
+        print("Paper covers rock. You win!")
+    else:
+        print("Scissors cuts paper. You lose.")
+elif user_choice == "scissors":
+    if computer_choice == "paper":
+        print("Scissors cuts paper. You win!")
+    else:
+        print("Rock crushes scissors. You lose.")
+
+    
 
 
 # DISPLAY RESULTS
