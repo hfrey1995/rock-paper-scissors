@@ -7,6 +7,8 @@
 #
 # this is the "game.py" file...
 
+import random
+
 print("Rock, Paper, Scissors, Shoot!")
 
 
@@ -24,7 +26,11 @@ print (f"You chose: '{user_choice}' ")
 
 # COMPUTER CHOICE
 
+# import random
 
+valid_options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_options)
+print("Computer chose:", computer_choice)
 
 # DETERMINE THE WINNER
 
