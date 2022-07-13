@@ -106,3 +106,43 @@ This is a one time game. To play multiple games please re-run the below (or pres
 ```python game.py
 ```
 ## HAVE FUN and GOODLUCK!
+
+## Demo
+
+Below are examples of two invalid entries and one successful game. 
+
+This is my file path for the game or where I stored my repo locally:
+
+```Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+```
+
+Examples:
+
+```Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+$ python game.py
+Rock, Paper, Scissors, Shoot!
+Please make a selection ('rock', 'paper', 'scissors): rock
+You chose:  rock
+You chose: ' rock'
+OOPS INVALID TRY AGAIN
+(base)
+
+Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+$ python game.py
+Rock, Paper, Scissors, Shoot!
+Please make a selection ('rock', 'paper', 'scissors):rock
+You chose: rock
+You chose: 'rock'
+Computer chose: scissors
+Rock crushes scissors. You win!
+(base)
+
+Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+$ python game.py
+Rock, Paper, Scissors, Shoot!
+Please make a selection ('rock', 'paper', 'scissors):Opps
+You chose: opps
+You chose: 'opps'
+OOPS INVALID TRY AGAIN
+(base)
+```
