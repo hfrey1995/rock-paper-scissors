@@ -24,9 +24,14 @@ Checklist to steps for setup.
 
 Optionally fork this [remote repository](https://github.com/hfrey1995/rock-paper-scissors), to create a copy under your own control. Then "clone" or download the remote repository (or your forked copy) onto your local computer, for example to your Desktop or C Drive (exampled). Then navigate to wherever you downloaded the repo.
 
+```sh
+cd ~Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+```
+
 Use your text editor or the command-line to create a file in that repo called "game.py"' and then place the following contents inside:
 
-```print("Rock, Paper, Scissors, Shoot!")
+```sh
+print("Rock, Paper, Scissors, Shoot!")
 ```
 
 Make sure to save Python files like this whenever you're done editing them. After setting up a virtual environment, we will be ready to run this file. 
@@ -66,13 +71,15 @@ python game.py
 
 Create and activate a new project-specific Anaconda for the program using:
 
-```conda create -n my-game-env python=3.8 # (first time only)
+```sh
+conda create -n my-game-env python=3.8 # (first time only)
 conda activate my-game-env
 ```
 
 Check for Anaconda installation in command-line to ensure Anaconda has been installed:
 
-```conda --version
+```sh
+conda --version
 ```
 
 If an error message populates please install [Anaconda](https://www.anaconda.com/products/distribution) to successfully play a game of rock, paper, scissors. 
@@ -81,7 +88,8 @@ If an error message populates please install [Anaconda](https://www.anaconda.com
 
 After the setup is complete, please demonstrate your ability to run the Python script from the command-line:
 
-```python game.py
+```sh
+python game.py
 ```
 
 Run the rock paper scissors game:
@@ -89,16 +97,18 @@ Run the rock paper scissors game:
 ```sh
 python game.py
 ```
-If you see "Rock, Paper, Scissors, Shoot!" message, you are ready to move on to play the game. You will be prompted to make a selection of ("rock", "paper", or "scissors"). if you mistype or type in a different word you will be notified of an "OOPS INVALID TRY AGAIN" message. In this case please re-run
+If you see "Rock, Paper, Scissors, Shoot!" message, you are ready to move on to play the game. You will be prompted to make a selection of ("rock", "paper", or "scissors"). if you mistype or type in a different word you will be notified of an "OOPS INVALID TRY AGAIN" message. In this case please re-run the below:
 
-```python game.py
+```sh 
+python game.py
 ```
 
 Then select the approriate options of rock, paper or scissors and see if you WIN!
 
 This is a one time game. To play multiple games please re-run the below (or press the up arrow if already played):
 
-```python game.py
+```sh
+python game.py
 ```
 ## HAVE FUN and GOODLUCK!
 
@@ -106,14 +116,19 @@ This is a one time game. To play multiple games please re-run the below (or pres
 
 Below are examples of two invalid entries and one successful game. 
 
-This is my file path for the game or where I stored my repo locally:
+This is where I saved the rock, paper, scissors repo locally for reference:
 
-```Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+```sh
+Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
 ```
 
 Examples:
 
-```Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
+```sh
+Hunte@FreyPC MINGW64 /
+$ cd C:/my-first-rep-folder/rock-paper-scissors
+(base)
+Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
 $ python game.py
 Rock, Paper, Scissors, Shoot!
 Please make a selection ('rock', 'paper', 'scissors): rock
@@ -121,7 +136,6 @@ You chose:  rock
 You chose: ' rock'
 OOPS INVALID TRY AGAIN
 (base)
-
 Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
 $ python game.py
 Rock, Paper, Scissors, Shoot!
@@ -131,7 +145,6 @@ You chose: 'rock'
 Computer chose: scissors
 Rock crushes scissors. You win!
 (base)
-
 Hunte@FreyPC MINGW64 /c/my-first-rep-folder/rock-paper-scissors (main)
 $ python game.py
 Rock, Paper, Scissors, Shoot!
@@ -139,5 +152,4 @@ Please make a selection ('rock', 'paper', 'scissors):Opps
 You chose: opps
 You chose: 'opps'
 OOPS INVALID TRY AGAIN
-(base)
 ```
